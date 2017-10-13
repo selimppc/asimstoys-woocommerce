@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta name="apple-touch-fullscreen" content="yes"/>
+  <meta name="MobileOptimized" content="320"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+
+  				<script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+			<title>Asim&#039;s Toy &#8211; Just another WordPress site</title>
+			<style>
+				.wishlist_table .add_to_cart, a.add_to_wishlist.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }			</style>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Asim&#039;s Toy &raquo; Feed" href="http://asimstoys.dev/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Asim&#039;s Toy &raquo; Comments Feed" href="http://asimstoys.dev/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/asimstoys.dev\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://asimstoys.dev/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='gavias.themer-css'  href='http://asimstoys.dev/wp-content/plugins/moniathemer/css/gavias.themer.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://asimstoys.dev/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='jquery-colorbox-css'  href='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='http://asimstoys.dev/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=3.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='decorpi-parent-style-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/style.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='gva-custom-style-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/css/custom_script.css?ver=4.8.2' type='text/css' media='all' />
+<style id='gva-custom-style-inline-css' type='text/css'>
+body{font-family:Poppins,sans-serif;} 
+</style>
+<link rel='stylesheet' id='redux-google-fonts-decorpi_theme_options-css'  href='http://fonts.googleapis.com/css?family=Poppins&#038;ver=1507799162' type='text/css' media='all' />
+<link rel='stylesheet' id='decorpi-fonts-css'  href='http://fonts.googleapis.com/css?family=Karla%3A400%2C700%7CVidaloka%3A400&#038;subset' type='text/css' media='all' />
+<link rel='stylesheet' id='scrollable-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/js/scrollable/jquery.scrollable.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/js/magnific/magnific-popup.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/js/owl-carousel/assets/owl.carousel.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='icon-custom-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/css/icon-custom.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://asimstoys.dev/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='base-bootstrap-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/css/bootstrap.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='base-woocoomerce-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/css/woocommerce.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='base-template-css'  href='http://asimstoys.dev/wp-content/themes/decorpi/css/template.css?ver=4.8.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://asimstoys.dev/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/asimstoys.dev\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/asimstoys.dev\/?page_id=11","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/add-to-cart.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.3'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/bootstrap.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/woocommerce.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/shop-single-product.js?ver=4.8.2'></script>
+<link rel='https://api.w.org/' href='http://asimstoys.dev/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://asimstoys.dev/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://asimstoys.dev/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<meta name="generator" content="WooCommerce 3.2.0" />
+<script> var ajaxurl = "http://asimstoys.dev/wp-admin/admin-ajax.php";</script><script> var ajaxurl = "http://asimstoys.dev/wp-admin/admin-ajax.php";</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://asimstoys.dev/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+
+<body class="home blog  wpb-js-composer js-comp-ver-5.3 vc_responsive">
+  <div class="wrapper-page"> <!--page-->
+    <header class="header-default">
+      
+<div class="gv-sticky-mobile header-mobile hidden-lg hidden-md">
+  <div class="container">
+    <div class="row"> 
+     
+      
+
+      <div class="center text-center col-xs-4">
+        <div class="logo-menu">
+          <a href="http://asimstoys.dev/">
+            <img src="http://asimstoys.dev/wp-content/themes/decorpi/images/logo.png" alt="Asim&#039;s Toy" />
+          </a>
+        </div>
+      </div>
+    
+
+        <div class="right col-xs-6">
+                      <div class="mini-cart-header">
+                                      <div class="cart dropdown">
+            <a class="dropdown-toggle mini-cart" data-toggle="dropdown" aria-expanded="true" role="button" aria-haspopup="true" data-delay="0" href="#" title="View your shopping cart">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="title-cart">Cart </span>
+                 <span class="mini-cart-items"> 0 </span> <span class="mini-cart-items-title"> items | </span>  <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>0.00</span>            </a>
+            <div class="minicart-content">
+                
+
+<div class="cart_list product_list_widget ">
+	<div class="minicart-close"><i class="mn-icon-04"></i></div>
+	
+		<div class="empty">No products in the cart.</div>
+
+	
+</div><!-- end product list -->
+
+
+            </div>
+        </div>
+                        
+            </div>
+                    <div class="main-search gva-search">
+            <a><i class="mn-icon-52"></i></a>
+          </div>
+        </div> 
+         <div class="left col-xs-2">
+         <div class="hidden-lg hidden-md">
+   <div class="canvas-menu gva-offcanvas">
+     <a class="dropdown-toggle" data-canvas=".mobile" href="#"><i class="mn-icon-103"></i></a>
+   </div>
+   <div class="gva-offcanvas-content mobile">
+      <div class="close-canvas"><a><i class="mn-icon-08"></i></a></div>
+      <div class="wp-sidebar sidebar">
+                  <div class="after-offcanvas">
+                     </div>    
+     </div>
+   </div>
+</div>      </div>
+    </div>  
+  </div>  
+</div>      
+      <div class="topbar hidden-sm hidden-xs">
+   <div class="container">
+      <div class="content-inner">
+        <div class="left pull-left">
+          <ul class="socials">
+             
+
+              
+
+              
+
+              
+
+             
+
+             
+            
+            
+            
+            
+                       </ul>
+<!-- 
+              <div class="left-header">
+                   
+
+                                </div> -->
+        </div>  
+
+         <div class="right pull-right">
+            <div class="topbar-meta">
+                              
+                <a title="Wishlist" href="http://asimstoys.dev/?page_id=9">
+                  Wishlist(0)                </a>
+               
+
+                              <a href="http://asimstoys.dev/?page_id=13" title="Login / Register">Login / Register</a>
+             
+             <!-- <div class="main-search gva-search">
+                  <a><i class="mn-icon-52"></i></a>
+                </div>  -->
+                
+                               <div class="mini-cart-header cart-v1 skin-black">
+                            <div class="cart dropdown">
+            <a class="dropdown-toggle mini-cart" data-toggle="dropdown" aria-expanded="true" role="button" aria-haspopup="true" data-delay="0" href="#" title="View your shopping cart">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="title-cart">Cart </span>
+                 <span class="mini-cart-items"> 0 </span> <span class="mini-cart-items-title"> items | </span>  <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>0.00</span>            </a>
+            <div class="minicart-content">
+                
+
+<div class="cart_list product_list_widget ">
+	<div class="minicart-close"><i class="mn-icon-04"></i></div>
+	
+		<div class="empty">No products in the cart.</div>
+
+	
+</div><!-- end product list -->
+
+
+            </div>
+        </div>
+                          </div> 
+                 
+                
+            </div>
+            <div class="right-header">
+                 
+              </div> 
+         </div>   
+      </div>   
+   </div>   
+</div>      
+      <div class="header-main hidden-xs hidden-sm">
+        <div class="header-inner sticky-second clearfix">
+        <div class="normal prelative gv-sticky-menu">
+          <div class="inner-top">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-md-5 col-md-4 col-sm-12 left-header">
+                   
+
+                                  </div>
+                <div class="logo col-lg-2 col-md-2 col-sm-12 text-center">
+                 <a class="logo-theme" href="http://asimstoys.dev/">
+                    <img src="http://asimstoys.dev/wp-content/themes/decorpi/images/logo.png" alt="Asim&#039;s Toy" />
+                  </a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 right-header">
+                    <div class="main-search gva-search">
+                      <a><i class="mn-icon-52"></i></a>
+                    </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="main-menu-wrapper">
+                    <div class="pstatic">
+                                           </div> 
+              </div> 
+            </div>
+          </div>
+          </div>
+        </div> 
+      </div> 
+        </header>
+    
+    <div id="page-content"> <!--page content-->
+      <div class="gva-search-content search-content">
+        <a class="close-search"><i class="mn-icon-04"></i></a>
+        <div class="search-content-inner">
+          <div class="content-inner">
+                    <form method="get" class="gv-search-category clearfix no-category" action="http://asimstoys.dev/">
+              <div class="category-select">
+                  <select  name='product_cat' id='product_cat' class='dropdown_product_cat' >
+	<option value='' selected='selected'>Select a category</option>
+</select>
+              </div>
+            <div class="input-form">
+                <input name="s" id="s" maxlength="60" class="input-key" type="text" size="20" placeholder="Enter search...">
+                <input type="submit" id="btn-submit" class="fa" value=""/>
+                <input type="hidden" name="post_type" value="product"/>
+            </div>
+
+            
+        </form>     
+                  </div>  
+        </div>  
+      </div>
+<section id="wp-main-content" class="clearfix main-page title-layout-standard">
+     
+   <div class="custom-breadcrumb " >
+            <div class="container">
+                         </div>   
+   </div>
+     <div class="container"> 
+    <div class="main-page-content row">
+      
+      <!-- Main content -->
+      <div class="content-page col-lg-9 col-md-9 col-sm-9 col-xs-12">      
+        <div id="wp-content" class="wp-content padding-30 content-page-index">   
+          <div class="post-items">
+                          
+<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+
+	<div class="post-thumbnail">
+			</div>	
+
+	<div class="post-content test">
+		<header class="entry-header">
+						<div class="entry-meta hidden">
+				<span class="cat-links"><a href="http://asimstoys.dev/?cat=1" rel="category">Uncategorized</a></span>
+			</div><!-- .entry-meta -->
+			<h2 class="entry-title"><a href="http://asimstoys.dev/?p=1" rel="bookmark">Hello world!</a></h2>			<div class="entry-meta">
+				<span class="post-format hidden">
+					<a class="entry-format" href="">Video</a>
+				</span>
+
+				<span class="entry-date"><a href="http://asimstoys.dev/?p=1" rel="bookmark"><i class="mn-icon-1126"></i><time class="entry-date" datetime="2017-10-12T08:36:41+00:00">October 12, 2017</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://asimstoys.dev/?author=1" rel="author"><i class="mn-icon-579"></i>admin</a></span></span>
+								<span class="comments-link"><i class="mn-icon-271"></i><a href="http://asimstoys.dev/?p=1#comments">1 Comment</a></span>
+				
+							</div><!-- .entry-meta -->
+			
+
+			
+		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			Welcome to WordPress. This is your first post. Edit or delete it, then start writing!			
+		</div><!-- .entry-content -->
+	</div>	
+
+	</article><!-- #post-## -->
+          </div>
+
+         <div class="pagination">
+                     </div>
+        </div>  
+      </div>  
+
+      <!-- Left sidebar -->
+    
+       <div class="sidebar wp-sidebar sidebar-left col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="sidebar-inner">
+            
+<aside id="search-2" class="widget clearfix widget_search"><form method="get" class="searchform gva-main-search" action="http://asimstoys.dev/">
+	<div class="gva-search">
+		<input name="s" maxlength="40" class="form-control input-large input-search" type="text" size="20" placeholder="Search...">
+		<span class="input-group-addon input-large btn-search">
+			<input type="submit" class="fa" value="&#xf002;" />
+		</span>
+	</div>
+</form>
+
+
+</aside>		<aside id="recent-posts-2" class="widget clearfix widget_recent_entries">		<h3 class="widget-title"><span>Recent Posts</span></h3>		<ul>
+					<li>
+				<a href="http://asimstoys.dev/?p=1">Hello world!</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget clearfix widget_recent_comments"><h3 class="widget-title"><span>Recent Comments</span></h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>A WordPress Commenter</a></span> on <a href="http://asimstoys.dev/?p=1#comment-1">Hello world!</a></li></ul></aside><aside id="archives-2" class="widget clearfix widget_archive"><h3 class="widget-title"><span>Archives</span></h3>		<ul>
+			<li><a href='http://asimstoys.dev/?m=201710'>October 2017</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget clearfix widget_categories"><h3 class="widget-title"><span>Categories</span></h3>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://asimstoys.dev/?cat=1" >Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget clearfix widget_meta"><h3 class="widget-title"><span>Meta</span></h3>			<ul>
+						<li><a href="http://asimstoys.dev/wp-login.php">Log in</a></li>
+			<li><a href="http://asimstoys.dev/?feed=rss2">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://asimstoys.dev/?feed=comments-rss2">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+			</aside>  
+
+          </div>
+                 </div>
+    </div>
+  </div>              
+  </section>
+	</div><!--end page content-->
+	
+</div><!-- End page -->
+
+	<footer id="wp-footer" class="clearfix">
+							<div class="copyright">
+				<div class="container">
+					decorpi &middot; Built with love by <a href='https://themeforest.net/user/moniathemes/portfolio'>Moniathemes</a>.				</div>
+			</div>
+		
+		<div id="gva-overlay"></div>
+		<div id="gva-quickview" class="clearfix"></div>
+
+					<div class="return-top default"><i class="mn-icon-194"></i></div>
+			
+	</footer>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/asimstoys.dev\/index.php?rest_route=\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/moniathemer/js/gavias.themer.js'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/asimstoys.dev\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yith_woocompare = {"ajaxurl":"http:\/\/asimstoys.dev\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"yes","loader":"http:\/\/asimstoys.dev\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js?ver=1.4.21'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/asimstoys.dev\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js?ver=2.1.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/countdown.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/perfect-scrollbar.jquery.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/owl-carousel/owl.carousel.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/magnific/jquery.magnific-popup.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/scroll/jquery.scrollto.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/waypoint.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/scrollable/jquery.scrollable.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-content/themes/decorpi/js/main.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://asimstoys.dev/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+</div>
+</body>
+</html>

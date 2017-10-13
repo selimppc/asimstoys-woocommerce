@@ -1,0 +1,127 @@
+$woo-link-color:        $brand-info !default; 
+// Star
+// -------------------------
+$star-rating-color                      : $black !default;
+$star-rating-active-color               : #FFD20F !default;
+$star-rating-font-size                  : 9px !default;
+
+// Sale
+// -------------------------
+$sale-label-font-size                   : 10px !default;
+$sale-label-font-weight                 : 800 !default;
+$sale-label-transform                   : uppercase !default;
+$sale-label-bg                          : #F64444 !default;
+$sale-label-color                       : $white !default;
+$sale-label-padding                     : 4px 12px !default;
+
+// Filter
+// -------------------------
+$filter-margin                          : 0 0 20px !default;
+$filter-padding                         : 5px 8px !default;
+$filter-border                          : 1px solid $border-color !default;
+$filter-bg                       : $nocolor !default;
+$filter-border-radius               : 0 !default;
+$filter-box-shadow                  : none !default;
+$filter-icon-font-size                  : 14px !default;
+$filter-font-size                       : 13px !default;
+
+// Product
+// -------------------------
+$product-bg                             : transparent !default;
+$product-border                         : 0px solid $border-color !default;
+$product-margin                         : 0 0 40px 0 !default;
+$product-alignment                      : center !default;
+$product-name-font-size                 : 12px !default;
+$product-name-font-weight               : 900 !default;
+$product-name-line-height               : 18px !default;
+$product-name-color                     : $black !default;
+$product-name-margin                    : 0px !default;
+$product-name-padding                   : 40px 15px 10px !default;
+$product-name-height                    : 36px !default;
+$product-name-hover-color               : $theme-color !default;
+$product-category-color                 : #ababab !default;
+$product-category-hover-color           : $theme-color !default;
+$product-category-font-size             : 11px !default;
+$product-category-bg                    : $white !default;
+$product-category-padding               : 18px 10px !default;
+$product-category-border-color          : transparent !default;
+$product-category-border-hover-color    : $border-color !default;
+$product-category-font-weight           : 300 !default;
+$product-category-font-style            : normal !default;
+$product-category-margin                : 0px 0 8px !default;
+$product-price-color                    : $theme-color !default;
+$product-price-old-color                : $white !default;
+$product-price-font-size                : 24px !default;
+$product-price-font-weight              : 300 !default;
+$product-button-font-size               : 10px !default;
+$product-button-border                  : 2px solid $border-color !default;
+$product-button-bg                      : $white !default;
+$product-button-padding                 : 0 !default;
+$product-button-hover-color             : $white !default;
+$product-button-hover-border            : $theme-color !default;
+$product-button-hover-bg                : $theme-color !default;
+$product-link-color                     : $black !default;
+$product-link-hover-color               : $theme-color !default;
+$product-icon-width                     : 69px !default;
+$product-icon-height                    : 40px !default;
+$product-icon-bg                        : $white !default;
+$product-icon-color                     : $text-color !default;
+$product-icon-font-size                 : 14px !default;
+$product-button-width                   : 103px !default;
+$product-rating-margin                  : 0 0 $theme-margin 0 !default;
+$product-thumbnail-gallery-size         : 120px !important;
+
+// Single Product
+// -------------------------
+$single-price-font-weight               : 800 !default;
+$single-new-price-color                 : $theme-color !default;
+$single-new-price-font-size             : 18px !default;
+$single-new-price-font-weight           : 800 !default;
+$single-new-price-line-height           : 1.4 !default;
+$single-product-title-line-height       : 1.11111 !default;
+$single-product-title-font-size         : 30px !default;
+$single-product-title-font-weight       : 800 !default;
+$single-product-title-margin            : 0 0 10px 0 !default;
+$single-product-title-transform         : uppercase !default;
+
+$single-product-summary-font-size        : 16px !default;
+// woocommerce tabs
+// -------------------------
+$woocommerce-tabs-padding               : 10px 0 30px 0 !default;
+$woocommerce-tabs-border                : none !default;
+$woocommerce-tabs-margin                : 0 !default;
+
+// Quickview Product
+// -------------------------
+$quickview-product-title-font-size      : 30px !default;
+$quickview-product-title-transform      : none !default;
+$quickview-product-content-margin       : 20px !default;
+
+// Widget Product
+// -------------------------
+$widget-product-list-size               : 90px !default;
+$widget-product-list-padding            : 20px 0 !default;
+$widget-product-list-margin             : 0px !default;
+$widget-product-list-border             : $border-color !default;
+$widget-product-list-font-size          : 12px !default;
+$widget-product-list-color          : $black !default;
+$widget-product-list-font-weight    : 400 !default;
+$widget-product-list-text-transform    : uppercase !default;;
+$widget-product-list-price-old-color   : #666666 !default;
+
+$widget-product-special-margin         : 0 !default;
+$widget-product-special-padding        : 0 10px 10px 40px !default;
+$widget-product-special-font-size      : 14px !default;
+
+// Sidebar Widget Product
+// -------------------------
+$block-sidebar-widget-product-list-size : 80px !default;
+
+// Product Category and Subcategory
+// -------------------------
+$product-category-content-margin        : 0 0 $grid-gutter-width 0;
+$product-category-content-height        : 45px !default;
+$product-category-title-color           : $white !default;
+$product-category-title-margin          : 0 !default;
+$product-category-title-padding         : 15px 10px !default;
+$product-category-title-bg              : $black !default;

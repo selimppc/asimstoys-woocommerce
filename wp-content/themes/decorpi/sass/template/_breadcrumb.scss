@@ -1,0 +1,119 @@
+.breadcrumb{
+  word-break: break-all;
+    > li {
+    font-size: 14px;
+    font-weight: 400;
+    color: $link-color;
+    }
+    a{
+      margin: 0 6px;
+      &:first-child {
+          margin-left: 0;
+          font-weight: 700;
+      }
+    }
+    li.active{
+      margin-left: 6px;
+
+    }
+}
+
+.custom-breadcrumb{
+  position: relative;
+  background: #fafafa;
+  margin-bottom: 30px;
+  .breadcrumb{
+    margin-bottom: 0;
+    padding: 10px 0;
+
+
+  }
+  .breadcrumb-overlay{
+    position: absolute;
+    @include size(100%, 100%);
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  &.background{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    @media(max-width: $screen-sm-max){
+      margin-bottom: 0;
+      min-height: 200px;
+      padding-top: 80px;
+    }
+    .breadcrumb{
+      color: $black;
+      position: relative;
+      z-index: 99;
+      padding-top: 5px;
+      a{
+        color: $black;
+      }
+    }
+    .heading-title{
+      font-size: 30px;
+      margin-top: 0;
+      line-height: 36px;
+      position: relative;
+      z-index: 99;
+      text-transform: uppercase;
+      margin: 0;
+      @media(max-width: $screen-sm-max){
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+  &.background{
+    margin-bottom: 0!important;
+    min-height: 370px;
+    @media(max-width: $screen-sm-max){
+      min-height: 250px;
+    }
+    .heading-title{
+      margin-top: 10px;
+      font-size: 36px;
+      line-height: 36px;
+      text-transform: capitalize;
+      @media(max-width: $screen-sm-max){
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+  &.text-light{
+    .breadcrumb{
+      color: #cccccc;
+      a{
+        color: #cccccc;
+      }
+    }
+    .active{
+      color: $white;
+    }
+    .heading-title{
+      color: $white;
+    }
+  }
+}
+
+
+.custom-breadcrumb{
+    padding: 10px 0;
+    margin-bottom: 45px; 
+     a{
+        &:hover{
+          text-decoration: underline;
+        }
+     }
+  }
+
+.title-layout-hero{
+  .main-page-content{
+    background: $white;
+    padding: 40px 10px 20px;
+  }
+}

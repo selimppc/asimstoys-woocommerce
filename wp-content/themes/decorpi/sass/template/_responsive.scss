@@ -1,0 +1,177 @@
+@media (max-width: 991px){
+	header.header-default .main-search {
+    	background: none;
+	}
+   .header-mobile .mini-cart-header a.mini-cart{
+      width: 50px;
+   }
+   .header-mobile .canvas-menu a i {
+       font-size: 25px;
+   }
+   .header-mobile img{
+      max-width: 150px;
+   }
+   .product-block .product-thumbnail-inner .swap-thumbnail .image-second{
+      display: none;
+   }
+   .product-block .product-thumbnail-inner .swap-thumbnail .attachment-shop_catalog{
+      position: relative;
+   }
+   .product-block:hover .swap-thumbnail .attachment-shop_catalog{
+       @include opacity(1);
+       visibility: visible;
+   }
+   .product-block .product-thumbnail .shop-loop-actions{
+      bottom: 0;
+   }
+   #wp-footer{
+      .widget{
+         margin-bottom: 30px;
+      }
+   }
+   #gva-mobile-menu {
+      .widget-title{
+         display: none;
+      }
+      .megamenu-profile {
+         .product-block {
+            .wp-post-image {
+               width: 100%;
+            }
+            a{
+               padding: 0;
+               text-transform: none;
+               font-weight: 500;
+            }
+         }
+      }
+   }
+   header.header-default{
+      height: 75px;
+      .main-search a{
+         color: $link-color;
+         border: none;
+      }
+   }
+   .header-mobile {
+      .canvas-menu a{
+         color: $link-color;
+      }
+      .main-search{
+         margin-top: 0 !important;
+         a{
+            text-align: center !important;
+         }
+      }
+   }
+
+   .gva-deals .item-product-deals {
+      .product-meta{
+         padding-top: 0;
+      }
+      .time{
+         bottom: 40px;
+      }
+   }
+   .custom-breadcrumb{
+      padding: 0;
+   }
+   .gva-block-heading.style-v1{
+      margin-bottom: 0;
+   }
+}
+@media (max-width: 768px){
+   .gsc-icon-box{
+      margin-bottom: 20px;
+   }
+   .product-block .add-to-cart{
+      padding: 2px 10px;
+   }
+   .vc_wpb_row_inner {
+      padding: 0 0 30px !important;
+   }
+   .gva-banner {
+       margin: 0 auto 30px;
+       max-width: 320px;
+       position: relative;
+   }
+   .gva-tabs-products-ajax{
+      .tabs-container,
+      .tabs-list{
+         width: 100%;
+      }
+      .widget-content{
+         border: none;
+      }
+      .tabs-list{
+         border: none;
+      }
+      .tabs-container{
+         border: 1px solid $border-color;
+      }
+      .nav-tabs > li{
+         @include rtl-float-left();
+         > a{
+            border: none;
+            padding-left: 10px;
+            padding-right: 10px;
+         }
+         &.active > a{
+            &:before{
+               display: none;
+            }
+         }
+      }
+   }
+   .counter_box{
+      margin-bottom: 20px;
+      background: $white;
+   }
+   .megamenu-main .megamenu-wrap-inner{
+      width: auto;
+   }
+   .custom-breadcrumb{
+      padding: 0;
+      margin:  0;
+   }
+   .gva-deals .item-product-deals {
+      .product-meta,
+      .product-thumbnail{
+         width: 100%;
+      }
+      .product-meta{
+         padding-top: 30px;
+      }
+   }
+   .title-custom{
+      margin-top: 20px;
+   }
+   #wp-footer .widget_mc4wp_form_widget, .widget_mc4wp_form_widget{
+      float: left;
+   }
+
+}
+@media (max-width: 640px){
+   .gv-search-category{
+      border: 1px solid $border-color;
+   }
+   .gv-search-category .category-select{
+      width: 100%;
+   }
+   .gv-search-category .input-form{
+      width: 100%;
+   }
+   .gva-tabs-products{
+      li{
+         margin-bottom: 10px;
+      }
+   }
+}
+@media (max-width: 480px){
+   .header-mobile .row > div{
+      padding: 0px 5px;
+   }
+   .gva-tabs-products-ajax .owl-nav {
+       top: -195px;
+   }
+}

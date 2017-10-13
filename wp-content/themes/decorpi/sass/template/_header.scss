@@ -1,0 +1,356 @@
+.topbar{
+  background: #424242;
+  font-size: 14px;
+  color: $text-color;
+  padding: 0;
+  line-height: 50px;
+  a{
+    font-size: 13px;
+    color: #F1F1F1;
+    &:hover{
+      color: $theme-color;
+    }
+    &.account-active{
+      color: $theme-color;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .topbar-meta{
+    > a{
+      position: relative;
+      padding: 0 20px;
+      &:after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -6px;
+        @include size(1px, 12px);
+        background: #858585;
+        z-index: 11;
+      }
+      
+      &:last-child{
+        padding-right: 0;
+        &:after{
+          display: none;
+        }
+      }
+      &:first-child{
+        padding-left: 0;
+      }
+    }
+  }
+  .socials{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li{
+      @include rtl-float-left();
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      width: 50px;
+      text-align: center;
+      a{
+        display: block;
+        i{
+          font-size: 14px;
+        }
+        &:hover{
+          background: $theme-color;
+          color: $white;
+        }
+      }
+      &:last-child{
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+
+}
+
+
+//-- Sticky menu
+.sticky-is-hidden{
+  .gv-sticky-menu.stuck, .gv-sticky-mobile.stuck {
+    top: -200px;
+  }
+}
+
+.stuck {
+  position: fixed !important;
+  @include transition(all 0.5s ease 0s);
+  width: 100%;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+
+.sticky-is-show .stuck{
+  @include box-shadow(0 1px 12px 0 rgba(0, 0, 0, 0.1));
+  &.header-v2{
+    background: $white;
+  }
+}
+
+.header-absolute{
+  .sticky-wrapper{
+    height: 0!important;
+  }
+}
+@media(min-width: $screen-sm-max){
+  .sticky-wrapper-mobile{
+    display: none!important;
+  }
+}  
+
+@media(max-width: $screen-sm-max){
+  .sticky-wrapper{
+    display: none;
+  }
+}
+
+//-- Search 
+.gva-search-content{
+  @include opacity(0); 
+  @include scale(0);
+  @include transition(all 0.35s);
+  z-index: 9999;
+  position: fixed;
+  @include size(100%, 100%);
+  background: $white;
+  left: 0;
+  top: 0;
+  .close-search{
+    color: $black;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    z-index: 999;
+    line-height: 1;
+    display: none;
+    i{
+      font-size: 24px;
+    }
+    &:hover{
+      color: $theme-color;
+      cursor: pointer;
+    }
+  }
+  .search-content-inner{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    padding: 0 30px;
+    .content-inner{
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  }
+  &.active{
+    @include scale(1);
+    @include opacity(1);
+    .close-search{
+      display: block;
+    }
+  }
+}
+
+//-- Header 
+header{
+  @media(max-width: $screen-sm-max){
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+  .canvas-menu{
+      @include rtl-float-left;
+      z-index: 9;
+      position: absolute;
+      top: 50%;
+      margin-top: -15px;
+      left: 25px;
+      .fa{
+        font-size: 17px;
+      }
+  }
+  
+  &.header-default{
+    background: #FFF;
+    position: relative;
+    z-index: 999;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0 5px 32px rgba(103, 122, 141, 0.17);
+   .main-search{
+    a{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+   }
+   .cart-v1{
+      float: right;
+      a.mini-cart{
+        text-align: left;
+        color: $link-color;
+        display: inline-block;
+        padding-left: 20px;
+        line-height: 30px;
+        .title-cart{
+          display: none;
+        }
+        .mini-cart-items{
+          font-size: 13px;
+          position: relative;
+          color: #f1f1f1;
+        }
+        .mini-cart-items-title{
+          color: #f1f1f1;
+        }
+        .amount{
+          display: inline-block;
+        }
+      }
+      &.skin-black{
+        a.mini-cart{
+          color: $theme-color;
+          font-weight: 500;
+        }
+      }
+    } 
+
+   
+  .topbar{
+    background: #181822;
+  }
+  .inner-top{
+      padding: 25px 0;
+  }
+  .logo{
+    text-align: center;
+    position: relative;
+    z-index: 9;
+  }
+  .mini-cart-header{
+    @include rtl-float-right();
+    .fa{
+      font-size: 16px;
+      @include rtl-margin-right(5px);
+    }
+  }
+  .main-search{
+    @include rtl-float-right();
+     @include rtl-margin-left(20px);
+    text-align: center;
+    a{
+      color: $text-color;
+      display: block;
+      @include size(40px,40px);
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid $border-color;
+      @include border-radius(50%);
+    }
+  }
+  #gva-main-menu{
+    ul.navbar-nav.gva-nav-menu{
+      border-top: 1px dashed $border-color;
+      text-align: center;
+      > li > a{
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: $font-family-base;
+        font-weight: 600;
+        padding: 15px;
+        color: $link-color;
+        .fa{
+          @include rtl-margin-left(5px);
+        }
+        &:hover{
+          color: $theme-color;
+        }
+      }
+    }
+  }  
+
+    .header-meta{
+      padding-top: 12px;
+      float: left;
+      &.item{
+        padding-left: 20px;
+        &:first-child{
+          padding-left: 0;
+        }
+        i{ 
+          position: relative;
+          top: 1px;
+          font-size: 14px;
+          margin-right: 10px;
+          color: #858585;
+        }
+      } 
+    }
+    .stuck{
+      background: $white;
+      > div{
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+      }
+    }
+  }
+ 
+}
+
+.header-mobile{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  margin-top: 1px;
+  img{
+    vertical-align: middle;
+  }
+  .canvas-menu{
+    margin-top: 5px;
+    line-height: 1;
+    a{
+      color: $white;
+      font-size: 24px;
+    }
+  }
+  .mini-cart-header{
+    line-height: 1;
+    background: transparent!important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    text-align: right;
+    width: auto !important;
+    display: inline-block;
+    float: right;
+    margin-left: 0 !important;
+    a.mini-cart{
+      color: $theme-color;
+      display: block;
+      margin-top: 5px;
+      @include size(24px, 24px);
+      line-height: 28px;
+      text-align: center;
+      .title-cart, .mini-cart-items-title, .amount{
+        display: none;
+      }
+      .mini-cart-items{
+        font-size: 14px;
+      }
+    }
+  }
+  .main-search{
+    margin-top: 12px !important;
+    float: right;
+  }
+}
+
+

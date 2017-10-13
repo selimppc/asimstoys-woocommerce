@@ -1,0 +1,365 @@
+.owl-carousel, .flex-control-nav{
+  position: relative;
+  max-height: 300px;
+  overflow: hidden;
+  &:after{
+    content: "";
+    background: url('#{$image-theme-path-base}preloader-18.gif') no-repeat center center $white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    @include size(100%, 100%);
+  }
+  &.owl-loaded{
+    max-height: none;
+    overflow: visible;
+    &:after{
+      display: none!important;
+    }
+  }
+  .owl-nav{
+    > div{
+      position: absolute;
+      top: 50%;
+      z-index: 99;
+      @include size(34px, 34px);
+      line-height: 34px;
+      text-align: center;
+      @include opacity(0);
+      @include transition(all 0.35s);
+      color: $black;
+      background-color: $white;
+      border: 1px solid $border-color;
+      i{
+        margin: 0;
+        font-size: 14px;
+        line-height: 32px;
+        color: $text-color;
+      }
+      &.owl-prev{
+        left: 0;
+      }
+
+      &.owl-next{
+        right: 0;
+      }
+      &:hover{
+        background-color: $theme-color;
+        border-color: $theme-color;
+        i{
+          color: $white;
+        }
+      }
+    }
+  }
+  .owl-stage .active{
+    &.last{
+      .product-block{
+        &:after{
+          @include opacity(0);
+        }
+      }
+    }
+  }
+  &:hover{
+    .owl-nav{
+      > div{
+        @include opacity(1);
+        &.disabled{
+           @include opacity(0.6);
+           pointer: disabled;
+           color: $black;
+           &:hover{
+            cursor: no-drop;
+           }
+        }
+      }
+    }   
+  }
+  .owl-dots{
+    width: 100%;
+    text-align: center;
+    .owl-dot{
+      @include size(10px, 10px);
+      @include border-radius(50%);
+      border: 1px solid $border-color;
+      display: inline-block;
+      margin: 0 4px;
+      &.active{
+        background: $theme-color;
+      }
+    }
+  }
+} 
+.owl-carousel .owl-item img{
+  width: auto;
+  display: inline-block;
+  transform-style: unset!important;
+  -webkit-transform-style: unset!important;
+  -o-transform-style: unset!important;
+  -ms-transform-style: unset!important;
+}
+
+.owl-carousel{
+  margin: 0 -15px;
+  width: auto;
+  .owl-item{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.related,
+.gva-blogs-carousel,
+.gva-tabs-products-ajax,
+.products-deals{
+  .owl-nav{
+    position: absolute;
+    @include size(76px, 34px);
+    > div{
+      @include opacity(1);
+    }
+  }
+}
+.gva-tabs-products-ajax{
+    .owl-nav{
+      @include rtl-right(-17px);
+      top: -106px;
+    }
+}
+.related,
+.gva-blogs-carousel{
+    .owl-nav{
+      @include rtl-right(15px);
+      top: -86px;
+    }
+}
+
+.products-deals{
+    .owl-nav{
+      @include rtl-right(0px);
+      top: -18px;
+    }
+}
+
+.gva-tabs-products{
+    ul.nav-tabs{  
+        > li{
+          > a{
+              @include opacity(0.4);
+              &:hover, &:focus, &:active{
+                @include opacity(1);
+              }
+          }
+          &.active{
+            > a{
+                @include opacity(1);
+            }
+          }
+        }
+        
+    }
+}
+ul.nav-tabs{  
+   display: inline-block;
+   > li{
+     white-space: nowrap; 
+     display: inline-block;
+     > a{
+       background: $nocolor;
+       padding: 0 20px;
+       padding-left: 10px;
+       font-family: $headings-font-family;
+       color: $text-color;
+       font-size: 22px;
+       font-weight: 700;
+       text-transform: uppercase;
+       @media(max-width: $screen-sm-max){
+        padding-left: 10px;
+        padding-right: 10px;
+       }
+       &:hover, &:focus, &:active{
+          color: $theme-color;
+       }
+     }  
+     &.active{
+       > a{
+           color: $theme-color;
+       }
+     }
+   }
+}
+
+.service-icon{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  @include transition(all 0.35s);
+  text-transform: uppercase;
+  .icon{
+    font-size: 22px;
+    @include size(35px, auto);
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-top: 3px;
+  }
+  &:hover{
+    color: $white;
+  }
+}
+
+
+
+.intro-about{
+  font-size: 13px;
+  color: #262626;
+  line-height: 28px;
+  .heading{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #aaaaaa;
+    font-family: $headings-font-family;
+  }
+  .dropcap{
+    &:first-child:first-letter { 
+      float: left;
+      color: $white;
+      font-size: 36px;
+      line-height: 36px;
+      display: inline-block;
+      font-weight: 400;
+      @include size(60px, 60px);
+      margin: 10px 10px 0 5px;
+      padding: 15px;
+      background: #262626;
+    }
+  }
+}
+
+#gva-filter-overlay, #gva-overlay{
+  position: fixed;
+  @include size(100%, 100%);
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: none;
+  &.open{
+    display: block;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+#fp-nav{
+  ul > li > a{
+    span{
+      background: #ccc!important;
+    }
+    &.active{
+      span{
+        background: #858585!important;
+      }
+    }
+  }
+}
+
+/* perfect-scrollbar v0.6.7 */
+.ps-container {
+  -ms-touch-action: none;
+  overflow: hidden !important; }
+  .ps-container.ps-active-x > .ps-scrollbar-x-rail,
+  .ps-container.ps-active-y > .ps-scrollbar-y-rail {
+    display: block; }
+  .ps-container.ps-in-scrolling {
+    pointer-events: none; }
+    .ps-container.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail {
+      background-color: #eee;
+      @include opacity(.9); }
+      .ps-container.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+        background-color: #999; }
+    .ps-container.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail {
+      background-color: #eee;
+      @include opacity(.9); }
+      .ps-container.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+        background-color: #999; }
+  .ps-container > .ps-scrollbar-x-rail {
+    display: none;
+    position: absolute;
+    /* please don't change 'position' */
+    border-radius: 4px;
+    @include opacity(0);
+    -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+    -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+    -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+    bottom: 3px;
+    /* there must be 'bottom' for ps-scrollbar-x-rail */
+    height: 8px; }
+    .ps-container > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+      position: absolute;
+      /* please don't change 'position' */
+      background-color: #aaa;
+      border-radius: 4px;
+      -webkit-transition: background-color 0.2s linear;
+      -moz-transition: background-color 0.2s linear;
+      -o-transition: background-color 0.2s linear;
+      transition: background-color 0.2s linear;
+      bottom: 0;
+      /* there must be 'bottom' for ps-scrollbar-x */
+      height: 8px; }
+  .ps-container > .ps-scrollbar-y-rail {
+    display: none;
+    position: absolute;
+    /* please don't change 'position' */
+    border-radius: 4px;
+    @include opacity(0);
+    -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+    -moz-transition: background-color 0.2s linear, opacity 0.2s linear;
+    -o-transition: background-color 0.2s linear, opacity 0.2s linear;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+    right: 3px;
+    /* there must be 'right' for ps-scrollbar-y-rail */
+    width: 4px; }
+    .ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+      position: absolute;
+      /* please don't change 'position' */
+      background-color: #aaa;
+      border-radius: 4px;
+      -webkit-transition: background-color 0.2s linear;
+      -moz-transition: background-color 0.2s linear;
+      -o-transition: background-color 0.2s linear;
+      transition: background-color 0.2s linear;
+      right: 0;
+      /* there must be 'right' for ps-scrollbar-y */
+      width: 5px; }
+  .ps-container:hover.ps-in-scrolling {
+    pointer-events: none; }
+    .ps-container:hover.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail {
+      background-color: #eee;
+      @include opacity(.9); }
+      .ps-container:hover.ps-in-scrolling.ps-x > .ps-scrollbar-x-rail > .ps-scrollbar-x {
+        background-color: #999; }
+    .ps-container:hover.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail {
+      background-color: #eee;
+      @include opacity(.9); }
+      .ps-container:hover.ps-in-scrolling.ps-y > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+        background-color: #999; }
+  .ps-container:hover > .ps-scrollbar-x-rail,
+  .ps-container:hover > .ps-scrollbar-y-rail {
+    @include opacity(.6); }
+  .ps-container:hover > .ps-scrollbar-x-rail:hover {
+    background-color: #eee;
+    @include opacity(.6); }
+    .ps-container:hover > .ps-scrollbar-x-rail:hover > .ps-scrollbar-x {
+      background-color: #999; }
+  .ps-container:hover > .ps-scrollbar-y-rail:hover {
+    background-color: #eee;
+    @include opacity(.6); }
+    .ps-container:hover > .ps-scrollbar-y-rail:hover > .ps-scrollbar-y {
+      background-color: #999; }

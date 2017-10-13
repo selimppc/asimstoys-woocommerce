@@ -1,0 +1,51 @@
+//font
+// --------------------------------------------------
+
+
+
+$font-size-sx:            	10px !default;
+$font-size-sm:            	12px !default;
+$font-size-md:            	14px !default;
+$font-size-lg:            	16px !default;
+
+$color-primary: 			#878787 !default;
+$color-second:  			#444 !default; 
+$color-third: 				#CCCCCC !default;
+
+$header-height:				40px!default;
+$header-line-height:		40px!default;
+
+$menu-nav-link-padding: 				30px 20px !default;
+$menu-nav-link-margin: 					15px 0 !default;
+$menu-nav-line-height: 					1 !default;
+$menu-nav-link-font-weight: 			700 !default;
+$menu-nav-link-color: 					$white !default;
+$menu-nav-link-background: 				$nocolor !default;
+$menu-nav-link-color-hover : 			$theme-color !default;
+$menu-nav-link-background-hover: 		$nocolor !default;
+
+$menu-submenu-background: 				$white !default;
+$menu-submenu-link-color: 				$black !default;
+$menu-submenu-link-color-hover: 		$theme-color !default;
+$menu-submenu-link-bg-hover:			$nocolor !default;
+$menu-submenu-link-font-size: 		14px !default;
+$menu-submenu-link-font-weight: 		400 !default;
+$menu-submenu-link-padding:			8px 10px !default;
+$menu-submenu-link-active-color:		$theme-color !default;
+$menu-submenu-link-active-bg:			$nocolor !default;
+
+$breadcrumb-padding: 		20px 0 13px !important;
+$breadcrumb-margin:			0!default;
+ 
+$border-color: rgba(0, 0, 0, 0.1)!default;
+
+$post-content-padding-bottom:	15px !default;	
+$post-content-margin-bottom	: 	20px !default;	
+$post-title-font-size:			26px !default;
+$post-title-font-weight: 		500 !default;
+$post-title-color:				$black !default;
+$post-title-line-height:		1.35 !default;
+
+
+$footer-padding: 			30px 0 0 !default;
+$copyright-padding:			15px 0 !default;

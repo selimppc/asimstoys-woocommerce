@@ -1,0 +1,296 @@
+.ajax-loading{
+	display: none;
+}
+.index-main-page{
+	margin-top: 30px;	
+}
+
+.wrapper-page{
+	.heading-title{ 
+		margin-bottom: 0;
+		display: block;
+		font-size: 28px;
+		margin-top: 15px;
+		color: $link-color;
+		word-break: break-all;
+	}
+}	
+
+//General page
+#wp-main-content{
+	min-height: 50px;
+}
+
+//Page Post Detail
+.single-blog{
+	.post-title{
+		color: $black;
+		margin-top: 15px;
+		.entry-title{
+			font-size: 30px;
+		}
+	}
+	.post-content{
+		border-bottom: 1px solid $border-color;
+	}
+	.post-desc-wrapper{
+		padding: 0!important;
+		.meta{
+			margin-bottom: 15px;
+			overflow: hidden;
+			> div{
+				float: left;
+				display: inline-block;
+				margin-right: 15px;
+				i{
+					margin-right: 8px;
+				}
+				a{
+					color: $theme-color;
+					&:hover{
+						color: $black;
+					}
+				}
+			}
+		}
+	}
+	.author-about{
+		background: $white;
+		padding: 30px;
+		margin-bottom: 30px;
+		display: inline-block;
+    	width: 100%;
+    	.img-author {
+		    float: left;
+		}
+		.name-author {
+			line-height: 1;
+		    display: inline-block;
+		    font-size: 19px;
+		    font-weight: 400;
+		    margin-left: 20px;
+		}
+		.description {
+		    font-size: 13px;
+		    font-weight: 400;
+		    margin-left: 90px;
+		    margin-top: 5px;
+		}
+	}
+	.comments{
+		background: $white;
+		padding: 1px 30px 30px;
+		margin-bottom: 30px;
+		.comment-form{
+			.form-group{
+				margin-bottom: 20px;
+				display: table;
+				width: 100%;
+				padding: 0;
+				input{
+					border: 1px solid $border-color!important;
+					height: 40px;
+					@include box-shadow(none);
+				}
+				.area-comment{
+					margin-top: 41px;
+					#comment{
+						background: #F2F2F2;
+						border: none!important;
+					}
+				}
+			}	
+		}
+	}
+	.btn-linka{
+		margin-top: 10px;
+		&:hover a{
+			color: $white;
+		}
+	}
+}
+
+.pagination{
+	.disabled{
+		background: $theme-color;
+		color: $white;
+	} 
+	.current{
+		background: $theme-color;
+		color: $white;
+	}
+}
+
+.page.white{
+	.wp-content article{
+		background: $white;
+		padding: 20px;
+	}
+}
+
+/*
+**	Page 404
+*/
+.not-found-wrapper{
+	padding: 300px 0 200px;
+	background: url('#{$image-theme-path-base}bg-404.jpg') no-repeat top center $nocolor;
+	@media(max-width: $screen-sm-max){
+		padding: 150px 0 100px;
+	}
+	.not-found-title h1{
+		font-family: $headings-font-family;
+		font-weight: 700;
+		font-size: 180px;
+		text-transform: uppercase;
+		color: $white;
+		margin-bottom: 0;
+		line-height: 165px;
+		@media(max-width: $screen-sm-max){
+			font-size: 42px;
+			line-height: 42px;
+		}
+	}
+	.not-found-desc{
+		font-size: 16px;
+		color: $white;
+		max-width: 535px;
+		margin: 0 auto;  
+	}
+	.not-found-subtitle{
+		font-size: 40px;
+		font-weight: 700;
+		font-family: $headings-font-family;
+		color: $white;
+		@media(max-width: $screen-sm-max){
+			font-size: 32px;
+		}
+	}
+	.not-found-home{
+		text-align: center;
+		margin-top: 50px;
+		> a{
+			padding: 15px 20px;
+			@include border-radius(30px);
+			background: $white;
+			@include transition(all 0.35s);
+			color: #262626;
+			i{
+				margin-right: 10px;
+				position: relative;
+				top: 2px;
+			}
+			&:hover, &:active, &:after{
+				background: $black;
+				color: $white;
+			}
+		}
+	}
+}
+
+/*
+** Page contact us
+*/
+.contact-information{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}	
+.wpcf7-form{
+	background: $white;
+	p{
+		margin-bottom: 20px;
+		font-weight: 700;
+	}
+	input[type*="email"], input[type*="text"]{
+		width: 100%;
+		height: 45px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 0 15px;
+		&::-webkit-input-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&::-moz-placeholder {
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&:-ms-input-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&:-moz-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+	}
+	textarea{
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		width: 100%;
+		padding: 10px 15px;
+		max-height: 195px;
+		&::-webkit-input-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&::-moz-placeholder {
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&:-ms-input-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+		&:-moz-placeholder { 
+		  color: #888888;
+		  font-weight: 400;
+		}
+	}
+	.wpcf7-submit{
+		padding: 10px 45px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $white;
+		background: $theme-color;
+		border: none;
+		@include transition(all 0.35s);
+		&:hover{
+			background: $black;
+			color: $white;
+		}
+	}
+}
+
+//woocommerce cart
+.woocommerce-cart{
+	h2{
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+	.shipping_calculator{
+		margin-bottom: 30px;
+	}
+	.cart-collaterals{
+		margin-bottom: 40px;
+	}
+	.actions {
+		input[name^="update_cart"]{
+			float: right;
+			margin-top: 5px;
+		}
+		.coupon{
+			float: left;
+			margin-bottom: 10px;
+			@media(max-width: $screen-sm-max){
+				width: 100%;
+			}
+		}	
+	}
+}
+
+.content-page-index{
+	.post-items{
+		article.post.sticky{
+			padding: 20px;
+			border: 1px solid $black;
+		}
+	}
+}
